@@ -1,0 +1,609 @@
+
+ # Begin Testbed Set
+
+ SINGLE_FILE = TRUE
+ GENERATED_BY = Testbed 7.7.0
+
+    # Begin Source Files
+
+    RelativeFile = .\arrays.c
+
+    # End Source Files
+
+ # End Testbed Set
+
+
+    # Begin Attributes
+
+      Sequence Name = arrays
+      Language Code = 2
+
+    # End Attributes
+
+    # Begin Test Case
+
+      File = .\examples\c_tbrun_examples\array\arrays.c
+      Procedure = sum_int_array
+      Procedure Number = 1
+      Creation Date = Mar 04 2002 14:15:44
+
+      # Begin Startup Code
+/*
+ * Test case initialisation code will be placed here
+ * Variables declared in this section do not have global scope
+ * Some compilers may not allow declarations here
+ */
+/* Uncomment the function call below to call the file-based test case initialisation code
+ * This function can perform common test case initialisation for multpile test cases  ldra_qq_file_tc_init_code ();
+*/
+gloarr[0] = 9;
+gloarr[1] = 8;
+gloarr[2] = 7;
+gloarr[3] = 6;
+gloarr[4] = 5;
+gloarr[5] = 4;
+gloarr[6] = 3;
+gloarr[7] = 2;
+gloarr[8] = 1;
+gloarr[9] = 0;
+      # End Startup Code
+
+        # Begin Variable
+
+          Name = max_count
+          Decl_type = int
+          Usage = Z
+          Value = 75
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = %
+          Decl_type = int
+          Usage = O
+          Value = 45
+
+        # End Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr
+          Decl_type = int [10]
+          Usage = G
+          Packed = T
+
+        # End Removed Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = .\examples\c_tbrun_examples\array\arrays.c
+      Procedure = sum_int_array
+      Procedure Number = 1
+      Creation Date = Mar 04 2002 14:19:17
+
+        # Begin Variable
+
+          Name = gloarr[0]
+          Decl_type = int
+          Usage = G
+          Value = 3
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[1]
+          Decl_type = int
+          Usage = G
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[2]
+          Decl_type = int
+          Usage = G
+          Value = 5
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[3]
+          Decl_type = int
+          Usage = G
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[4]
+          Decl_type = int
+          Usage = G
+          Value = 7
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = max_count
+          Decl_type = int
+          Usage = Z
+          Value = 5
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = %
+          Decl_type = int
+          Usage = O
+          Value = 25
+
+        # End Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr[5]
+          Decl_type = int
+          Usage = G
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr[6]
+          Decl_type = int
+          Usage = G
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr[7]
+          Decl_type = int
+          Usage = G
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr[8]
+          Decl_type = int
+          Usage = G
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr[9]
+          Decl_type = int
+          Usage = G
+
+        # End Removed Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = .\examples\c_tbrun_examples\array\arrays.c
+      Procedure = sum_int_array
+      Procedure Number = 1
+      Creation Date = Mar 04 2002 14:20:28
+
+        # Begin Variable
+
+          Name = gloarr[0]
+          Decl_type = int
+          Usage = G
+          Value = 10
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[1]
+          Decl_type = int
+          Usage = G
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[2]
+          Decl_type = int
+          Usage = G
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[3]
+          Decl_type = int
+          Usage = G
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[4]
+          Decl_type = int
+          Usage = G
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[5]
+          Decl_type = int
+          Usage = G
+          Value = 0
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[6]
+          Decl_type = int
+          Usage = G
+          Value = 5
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[7]
+          Decl_type = int
+          Usage = G
+          Value = 8
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[8]
+          Decl_type = int
+          Usage = G
+          Value = 2
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[9]
+          Decl_type = int
+          Usage = G
+          Value = 20
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = max_count
+          Decl_type = int
+          Usage = Z
+          Value = 10
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = %
+          Decl_type = int
+          Usage = O
+          Value = 45
+
+        # End Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = .\examples\c_tbrun_examples\array\arrays.c
+      Procedure = set_int_array
+      Procedure Number = 2
+      Creation Date = Mar 04 2002 14:22:57
+
+        # Begin Variable
+
+          Name = val
+          Decl_type = int
+          Usage = Z
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = max_count
+          Decl_type = int
+          Usage = Z
+          Value = 7
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[0]
+          Decl_type = int
+          Usage = H
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[1]
+          Decl_type = int
+          Usage = H
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[2]
+          Decl_type = int
+          Usage = H
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[3]
+          Decl_type = int
+          Usage = H
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[4]
+          Decl_type = int
+          Usage = H
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[5]
+          Decl_type = int
+          Usage = H
+          Value = 6
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[6]
+          Decl_type = int
+          Usage = H
+          Value = 6
+
+        # End Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr[7]
+          Decl_type = int
+          Usage = H
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr[8]
+          Decl_type = int
+          Usage = H
+
+        # End Removed Variable
+
+        # Begin Removed Variable
+
+          Name = gloarr[9]
+          Decl_type = int
+          Usage = H
+
+        # End Removed Variable
+
+    # End Test Case
+
+    # Begin Test Case
+
+      File = .\examples\c_tbrun_examples\array\arrays.c
+      Procedure = set_int_array
+      Procedure Number = 2
+      Creation Date = Mar 04 2002 14:23:23
+
+        # Begin Variable
+
+          Name = val
+          Decl_type = int
+          Usage = Z
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = max_count
+          Decl_type = int
+          Usage = Z
+          Value = 10
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[0]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[1]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[2]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[3]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[4]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[5]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[6]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[7]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[8]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+        # Begin Variable
+
+          Name = gloarr[9]
+          Decl_type = int
+          Usage = H
+          Value = 4
+
+        # End Variable
+
+    # End Test Case
+
+  #Begin Isolated Procedure
+
+    File = .\examples\c_tbrun_examples\array\arrays.c
+    Procedure = sum_int_array
+    Procedure Number = 1
+
+  #End Isolated Procedure
+
+  #Begin Isolated Procedure
+
+    File = .\examples\c_tbrun_examples\array\arrays.c
+    Procedure = set_int_array
+    Procedure Number = 2
+
+  #End Isolated Procedure
+
+    # Begin Global Conversions
+S
+signed long int
+%ld
+S
+signed short int
+%hd
+S
+signed int
+%d
+S
+signed
+%d
+S
+unsigned long int
+%lu
+S
+unsigned short int
+%hu
+S
+unsigned int
+%u
+S
+unsigned
+%u
+S
+long int
+%ld
+S
+short int
+%hd
+S
+int
+%d
+S
+long
+%ld
+S
+short
+%hd
+S
+signed long
+%ld
+S
+signed short
+%hd
+S
+unsigned long
+%lu
+S
+unsigned short
+%hu
+    # End Global Conversions
+
